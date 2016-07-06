@@ -1,0 +1,13 @@
+{
+  "name": "ts-framework-app",
+  "description": "A TSFramework Example Web Application",
+  "version": "0.0.3",
+  "scripts": {
+    "prestart": "tsc -p app",
+    "start": "node build/app.js"
+  },
+  "dependencies": {
+    "typescript": "1.8.10",
+    "tsframework-full": "0.0.3"
+  }
+}

@@ -1,0 +1,15 @@
+.idea
+.tscache
+.tmp
+node_modules*
+build*
+.build*
+typings*
+!typings.json
+ci.pid
+coverage*
+
+*.pid
+*.iml
+*.log
+*.tmp.txt
