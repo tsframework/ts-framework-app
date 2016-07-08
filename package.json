@@ -4,10 +4,20 @@
   "version": "0.0.3",
   "scripts": {
     "prestart": "tsc -p app",
-    "start": "node build/app.js"
+    "start": "node build/app.js",
+    "pretest": "node build/app.js & echo $! > ci.pid & sleep 5",
+    "test": "mocha build-test --recursive",
+    "posttest": "kill -9 `cat ci.pid`"
   },
   "dependencies": {
     "typescript": "1.8.10",
-    "tsframework-full": "0.0.3"
+    "tsframework-full": "0.0.1",
+    "huject": "^1.3.4"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "request": "~2.71.0",
+    "should": "~8.3.0"
   }
 }

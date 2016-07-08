@@ -1,0 +1,11 @@
+{
+  "name": "ts-framework",
+  "version": false,
+  "dependencies": {
+    "chai": "registry:npm/chai#3.5.0+20160415060238"
+  },
+  "globalDependencies": {
+    "mocha": "registry:dt/mocha#2.2.5+20160317120654",
+    "node": "registry:dt/node#4.0.0+20160412142033"
+  }
+}
