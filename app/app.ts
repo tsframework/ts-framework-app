@@ -5,7 +5,8 @@ let services = [
     "Configuration/ConfigurationServiceProvider.js",
     "Controller/ControllerServiceProvider.js",
     "Http/HttpServiceProvider.js",
-    "View/ViewServiceProvider.js"
+    "View/ViewServiceProvider.js",
+    "AppServiceProvider.js"
 ];
 
 let app: Application = new Application(process.cwd(), services);
