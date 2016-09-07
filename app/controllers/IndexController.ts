@@ -1,10 +1,10 @@
-import {HttpController, action, controller} from "tsframework-full";
+import {HttpController, action, controller, middleware} from "tsframework-full";
 
-@controller()
+@controller({middleware: ["TestClassMiddle"]})
 export class IndexController extends HttpController
 {
     // GET: /
-    @action({path:'/'})
+    @action({path:'/', middleware: ["TestMethodMiddle"]})
     public getIndex()
     {
         return this.view('welcome.ejs');

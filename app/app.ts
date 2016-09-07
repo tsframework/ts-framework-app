@@ -3,8 +3,9 @@ import {Application} from "tsframework-full";
 let services = [
     "Core/TSFWServiceProvider.js",
     "Configuration/ConfigurationServiceProvider.js",
-    "Controller/ControllerServiceProvider.js",
     "Http/HttpServiceProvider.js",
+    "Router/RouterServiceProvider.js",
+    "Controller/ControllerServiceProvider.js",
     "View/ViewServiceProvider.js",
     "AppServiceProvider.js"
 ];
