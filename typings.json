@@ -2,10 +2,17 @@
   "name": "ts-framework",
   "version": false,
   "dependencies": {
-    "chai": "registry:npm/chai#3.5.0+20160415060238"
+    "bcrypt": "registry:npm/bcrypt#0.8.0+20160901034404",
+    "chai": "registry:npm/chai#3.5.0+20160415060238",
+    "firebase": "registry:npm/firebase#3.0.5+20160723033700"
   },
   "globalDependencies": {
+    "bootstrap": "registry:dt/bootstrap#3.3.5+20160619023404",
     "mocha": "registry:dt/mocha#2.2.5+20160317120654",
-    "node": "registry:dt/node#4.0.0+20160412142033"
+    "node": "registry:dt/node#6.0.0+20160928143418",
+    "socket.io": "registry:dt/socket.io#1.4.4+20160909205835",
+    "three": "registry:dt/three#0.0.0+20160802154944",
+    "underscore": "registry:dt/underscore#1.8.3+20160908111004",
+    "vue": "registry:dt/vue#1.0.21+20161209165018"
   }
 }
