@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "required": "The :attribute field is required.",
+    "email": "The :attribute must be a valid email.",
+    "accepted": "The :attribute must be accepted.",
+    "confirmed": "The :attribute confirmation does not match.",
+    "in": "The selected :attribute is invalid."
+  },
+  "attribute": {
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "cgu": "CGU"
+  }
+
+}

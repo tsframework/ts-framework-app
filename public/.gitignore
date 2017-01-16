@@ -1,0 +1,8 @@
+# Ignore compiled css files
+css/app.css
+
+# Ignore compiled js modules files
+js/modules/*
+
+# Ignore compiled js bundle file
+js/app.js
